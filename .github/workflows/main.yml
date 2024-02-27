@@ -24,6 +24,6 @@ jobs:
       uses: azure/container-apps-deploy-action@v1
       with:
         appSourcePath: ${{ github.workspace }}/src #app path
-        acrName: srelab2
+        acrName: srelab2 
         containerAppName: srelab2
         resourceGroup: srelab2
