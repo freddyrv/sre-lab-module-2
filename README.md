@@ -41,6 +41,7 @@ Once you have added latest ubuntu image to your Azure Container registry, integr
 
 1. Create a new workflow or edit current main.yaml for actions, where the following configurations needs to be done according to your Azure environment.
 
+``` 
    name: Deploy Container App to Azure
 
 on:
@@ -71,7 +72,7 @@ jobs:
         acrName: srelab2 #ACR name
         containerAppName: srelab2 #Container App Name
         resourceGroup: srelab2 #Resource Group Name
-
+``` 
 2. Once you have replaced the required values, proceed to execute workflow wich would be automatically deployed to the Azure Container App.
 
 
